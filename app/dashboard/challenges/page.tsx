@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import { ChallengeType, AccountSize } from '@/types'
 import { Card } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
@@ -60,8 +61,13 @@ export default function ChallengesPage() {
     <div className="max-w-7xl mx-auto">
       <div className="mb-8">
         <div className="flex items-center space-x-3 mb-2">
-          <div className="w-8 h-8 bg-gradient-to-br from-primary-600 to-blue-600 rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-lg">A</span>
+          <div className="w-8 h-8 relative">
+            <Image
+              src="/logo.png"
+              alt="Apex Fund Traders"
+              fill
+              className="object-contain rounded-lg"
+            />
           </div>
           <h1 className="text-4xl font-bold text-gray-900">New Challenge</h1>
         </div>

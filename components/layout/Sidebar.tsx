@@ -2,6 +2,7 @@
 
 import { usePathname, useRouter } from 'next/navigation'
 import Link from 'next/link'
+import Image from 'next/image'
 import {
   Home,
   Trophy,
@@ -35,9 +36,17 @@ export function Sidebar() {
     <div className="w-20 bg-white border-r border-gray-200 flex flex-col items-center py-6 h-screen fixed left-0 top-0">
       {/* Logo */}
       <div className="mb-8">
-        <div className="w-12 h-12 bg-gradient-to-br from-primary-600 to-blue-600 rounded-lg flex items-center justify-center">
-          <span className="text-white font-bold text-xl">A</span>
-        </div>
+        <Link href="/dashboard" className="block">
+          <div className="w-12 h-12 relative">
+            <Image
+              src="/logo.png"
+              alt="Apex Fund Traders"
+              fill
+              className="object-contain rounded-lg"
+              priority
+            />
+          </div>
+        </Link>
       </div>
 
       {/* Navigation */}
