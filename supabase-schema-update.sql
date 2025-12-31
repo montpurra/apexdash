@@ -9,3 +9,5 @@ alter table profiles
 -- Update the trigger function to include new fields (optional, for new signups)
 -- The existing trigger will still work, new fields will just be null initially
 
+
+
