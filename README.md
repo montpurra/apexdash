@@ -1,5 +1,7 @@
 # Apex Fund Traders Dashboard
 
+> Latest deployment: Fixed TypeScript build errors
+
 A professional trading dashboard for Apex Fund Traders prop firm.
 
 ## Features
@@ -106,6 +108,8 @@ npm start
 ```
 
 For deployment on platforms like Vercel, connect your repository and add the environment variables in the platform settings.
+
+
 
 
 
