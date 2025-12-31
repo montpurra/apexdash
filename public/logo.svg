@@ -2,25 +2,25 @@
   <!-- Black background -->
   <rect width="128" height="128" fill="#000000" rx="8"/>
   
-  <!-- Red letter A with sharp design -->
+  <!-- Red letter A with sharp, angular design -->
   <g fill="#FF0000">
-    <!-- Left leg - thick triangular shape -->
-    <path d="M 28 108 L 44 20 L 60 20 L 76 108 Z"/>
+    <!-- Left leg - thick triangular shape tapering to sharp point -->
+    <path d="M 24 112 L 40 16 L 56 16 L 72 112 Z"/>
     
-    <!-- Right leg - with prominent slash/cut -->
-    <!-- Top section of right leg (above slash) -->
-    <path d="M 60 20 L 76 20 L 84 48 L 68 48 Z"/>
+    <!-- Right leg - with prominent horizontal slash/cut -->
+    <!-- Top section of right leg (above the slash) -->
+    <path d="M 56 16 L 72 16 L 80 44 L 64 44 Z"/>
     
-    <!-- The prominent slash/cut - extends outward and upward -->
-    <path d="M 68 48 L 92 48 L 96 58 L 72 58 Z"/>
+    <!-- The prominent slash - extends outward and upward to the right, creating arrow-like tip -->
+    <path d="M 64 44 L 88 44 L 92 54 L 68 54 Z"/>
     
-    <!-- Bottom section of right leg (below slash) -->
-    <path d="M 72 58 L 96 58 L 84 108 L 60 108 Z"/>
+    <!-- Bottom section of right leg (below the slash) -->
+    <path d="M 68 54 L 92 54 L 80 112 L 56 112 Z"/>
     
-    <!-- Inner negative space to form the A shape -->
-    <path d="M 44 58 L 60 28 L 68 58 Z" fill="#000000"/>
+    <!-- Inner negative space to form the A crossbar and inner triangle -->
+    <path d="M 40 54 L 56 24 L 64 54 Z" fill="#000000"/>
     
     <!-- Crossbar negative space -->
-    <path d="M 52 58 L 60 38 L 68 58 Z" fill="#000000"/>
+    <path d="M 48 54 L 56 34 L 64 54 Z" fill="#000000"/>
   </g>
 </svg>
