@@ -63,7 +63,7 @@ export default function ChallengesPage() {
         <div className="flex items-center space-x-3 mb-2">
           <div className="w-8 h-8 relative">
             <Image
-              src="/logo.png"
+              src="/logo.svg"
               alt="Apex Fund Traders"
               fill
               className="object-contain rounded-lg"

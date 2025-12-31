@@ -5,9 +5,12 @@ export const metadata: Metadata = {
   title: "Apex Fund Traders - Dashboard",
   description: "Professional trading dashboard for Apex Fund Traders",
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon.ico',
-    apple: '/logo.png',
+    icon: [
+      { url: '/logo.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any' }
+    ],
+    shortcut: '/logo.svg',
+    apple: '/logo.svg',
   },
 };
 
@@ -19,9 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/logo.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/logo.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/logo.png" />
+        <link rel="apple-touch-icon" href="/logo.svg" />
       </head>
       <body suppressHydrationWarning>{children}</body>
     </html>

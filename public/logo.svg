@@ -1,0 +1,26 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black background -->
+  <rect width="128" height="128" fill="#000000" rx="8"/>
+  
+  <!-- Red letter A with sharp design -->
+  <g fill="#FF0000">
+    <!-- Left leg - thick triangular shape -->
+    <path d="M 28 108 L 44 20 L 60 20 L 76 108 Z"/>
+    
+    <!-- Right leg - with prominent slash/cut -->
+    <!-- Top section of right leg (above slash) -->
+    <path d="M 60 20 L 76 20 L 84 48 L 68 48 Z"/>
+    
+    <!-- The prominent slash/cut - extends outward and upward -->
+    <path d="M 68 48 L 92 48 L 96 58 L 72 58 Z"/>
+    
+    <!-- Bottom section of right leg (below slash) -->
+    <path d="M 72 58 L 96 58 L 84 108 L 60 108 Z"/>
+    
+    <!-- Inner negative space to form the A shape -->
+    <path d="M 44 58 L 60 28 L 68 58 Z" fill="#000000"/>
+    
+    <!-- Crossbar negative space -->
+    <path d="M 52 58 L 60 38 L 68 58 Z" fill="#000000"/>
+  </g>
+</svg>

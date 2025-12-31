@@ -39,7 +39,7 @@ export function Sidebar() {
         <Link href="/dashboard" className="block">
           <div className="w-12 h-12 relative">
             <Image
-              src="/logo.png"
+              src="/logo.svg"
               alt="Apex Fund Traders"
               fill
               className="object-contain rounded-lg"
